@@ -171,6 +171,7 @@ header h1 {
 
 header nav ul {
 	display: flex;
+	align-items: center;
 }
 
 header nav ul li {
@@ -182,6 +183,7 @@ header nav ul li {
 =============*/
 main section.banner {
 	text-align: center;
+	margin: 0 0 5vw 0;
 }
 
 main section.banner p {
@@ -203,21 +205,104 @@ main section.products {
 	background: #CBE4DE;
 	padding: 2vw 5vw 2vw 5vw;
 }
-main section.products div{
+
+main section.products div {
 	text-align: center;
 }
-main section.products div h2{
+
+main section.products div h2 {
 	font-size: 2rem;
 }
+
 main section.products div p {
 	color: grey;
 	margin: 1vw 0 0 0;
 }
+
 main section.products ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+
 main section.products ul li {
-	width: 30%;
+	width: 25%;
+	background: #FFFFFF;
+	margin: 1vw 0 1vw 0;
+	padding: 2vw 2vw 2vw 2vw;
+	border-radius: 20px;
+	text-align: center;
+}
+
+main section.products ul li h3 {
+	font-weight: bold;
+	margin: 1vw 1vw 1vw 1vw;
+}
+
+main section.products ul li p {
+	color: grey;
+}
+
+/*=============
+   MAIN FINAL
+=============*/
+main section.final {
+	text-align: center;
+	margin: 4vw 2vw 4vw 2vw;
+}
+
+main section.final div h2 {
+	font-size: 2rem;
+}
+
+main section.final div p {
+	color: grey;
+	margin: 1vw 2vw 2vw 2vw;
+}
+
+main section.final ul {
+	display: flex;
+	text-align: start;
+	justify-content: center;
+}
+
+main section.final ul li {
+	margin: 0 3vw 0 3vw;
+}
+
+main section.final ul li h3 {
+	font-weight: bold;
+	margin: 5vw 0 0.5vw 0;
+}
+
+main section.final ul li p {
+	color: grey;
+}
+
+/*=============
+	FOOTER
+=============*/
+footer {
+	background: #CBE4DE;
+	padding: 2vw 2vw 2vw 2vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+footer h1 {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+footer p {
+	color: grey;
+}
+
+footer ul {
+	display: flex;
+}
+
+footer ul li a {
+	color: grey;
+	margin: 0.8vw 0.8vw 0.8vw 0.8vw;
 }
