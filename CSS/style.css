@@ -197,6 +197,10 @@ main section.banner h2 {
 main section.banner p {
 	color: grey;
 }
+main section.banner img {
+	width: 80%;
+	max-width: 800px;
+}
 
 /*=============
  MAIN PRODUCTS
@@ -305,4 +309,43 @@ footer ul {
 footer ul li a {
 	color: grey;
 	margin: 0.8vw 0.8vw 0.8vw 0.8vw;
+}
+/*=============
+ RESPONSIVIDADE
+=============*/
+@media (max-width: 600px) {
+	header {
+		display: block;
+		text-align: center;
+	}
+	header nav ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	header nav ul li {
+		width: 40%;
+		margin: 2vw;
+	}
+	header h1 a {
+		margin: 3vw;
+	}
+	main section.products ul li {
+		width: 80%;
+	}
+	main section.products ul {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 1vw 0 5vw 0;
+	}
+	main section.final ul {
+		flex-wrap: wrap;
+	}
+	main section.final ul li img {
+		width: 80%;
+		max-width: 800px;
+		margin: 0 auto 0 auto;
+	}
+	footer {
+		text-align: center;
+	}
 }
