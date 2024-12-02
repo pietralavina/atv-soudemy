@@ -340,12 +340,26 @@ footer ul li a {
 	main section.final ul {
 		flex-wrap: wrap;
 	}
+	main section.final ul li {
+		text-align: center;
+	}
 	main section.final ul li img {
 		width: 80%;
 		max-width: 800px;
-		margin: 0 auto 0 auto;
 	}
 	footer {
+		display: block;
 		text-align: center;
+	}
+	footer p {
+		margin: 2vw 0 2vw 0;
+	}
+	footer nav ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	footer nav ul li {
+		margin: 2vw 0 2vw 0;
+		width: 60%;
 	}
 }
